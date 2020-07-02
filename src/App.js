@@ -6,13 +6,15 @@ import Primeiro from './components/Primeiro'
 import MinMax from './components/MinMax'
 import Aleatorio from './components/NumAleatorio'
 import Titulo from './components/Titulo'
+import Botao from './components/Botao'
 
 
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <Titulo principal="Cadastro Produto" segundario="Tela de cadastro"/>
+        <Botao></Botao>
         {/* <Aleatorio min={1} max={60}/>
+        <Titulo principal="Cadastro Produto" segundario="Tela de cadastro"/>
         <Aleatorio min={1} max={60}/>
         <Aleatorio min={1} max={60}/>
         <Aleatorio min={1} max={60}/>
