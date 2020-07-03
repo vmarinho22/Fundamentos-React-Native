@@ -1,6 +1,7 @@
 import React from 'react'
 import { SafeAreaView,StyleSheet } from 'react-native'
 
+
 // import Comp,{ Comp1, Comp2} from './components/Multi'
 // import Primeiro from './components/Primeiro'
 // import MinMax from './components/MinMax'
@@ -17,17 +18,26 @@ import { SafeAreaView,StyleSheet } from 'react-native'
 // import Membro from './components/relacao/Membro'
 // import UsuarioLogado from './components/UsuarioLogado'
 // import ListaProdutos from './components/produtos/ListaProdutos'
-import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+// import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+// import FlexBoxV1 from './components/layout/FlexboxV1'
+// import FlexboxV1 from './components/layout/FlexboxV1'
+// import FlexboxV2 from './components/layout/FlexboxV2'
+// import FlexboxV3 from './components/layout/FlexboxV3'
+import FlexboxV4 from './components/layout/FlexboxV4'
 
 
 export default () => (
     <SafeAreaView style={style.App}>
-
-        <ListaProdutosV2/>
-
+        <FlexboxV4/>
         {/* <Contador inicial={100} passo={13}/> */}
 
         {/* <Aleatorio min={1} max={60}/>
+        <FlexboxV3/>
+        <FlexboxV2/>
+        <FlexboxV1/>
+        <DigiteSeuNome/>
+        <ListaProdutosV2/>
         <ListaProdutos/>
         <UsuarioLogado usuario={{nome: 'Vini', email: 'vinicius@abc.com'}}/>
         <Familia>
