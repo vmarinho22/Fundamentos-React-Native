@@ -33,9 +33,10 @@ export default () => (
     <SafeAreaView style={style.App}>
 
         <Mega />
-        {/* <Contador inicial={100} passo={13}/> */}
+        {}
 
         {/* <Aleatorio min={1} max={60}/>
+        <Contador inicial={100} passo={13}/> 
         <FlexboxV4/>
         <FlexboxV3/>
         <FlexboxV2/>
